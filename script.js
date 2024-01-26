@@ -27,13 +27,13 @@ const calcularNotaFinal = (alunoPresenteIndex, provaPaulistaIndex, redacaoPaulis
 
     let divResultado = document.querySelector('#resultado');
     divResultado.innerHTML = `<strong>Nota Final: ${notaFinal.toFixed(2)}</strong><br>
-    Aluno Presente: ${notaAlunoPresente.toFixed(2)} (Nota Máxima: 3)<br>
-    Prova Paulista: ${notaProvaPaulista.toFixed(2)} (Nota Máxima: 1)<br>
-    Redação Paulista: ${notaRedacaoPaulista.toFixed(2)} (Nota Máxima: 1.5)<br>
-    Tarefa SP: ${notaTarefaSP.toFixed(2)} (Nota Máxima: 2)<br>
-    Alura: ${notaAlura.toFixed(2)} (Nota Máxima: 1)<br>
-    Matemática Gameficada: ${notaMatematicaGameficada.toFixed(2)} (Nota Máxima: 0.75)<br>
-    Vulnerabilidade: ${notaVulnerabilidade.toFixed(2)} (Nota Máxima: 1)<br>`;
+    Aluno Presente: ${notaAlunoPresente.toFixed(2)} (Máxima: 3.00)<br>
+    Prova Paulista: ${notaProvaPaulista.toFixed(2)} (Máxima: 1.00)<br>
+    Redação Paulista: ${notaRedacaoPaulista.toFixed(2)} (Máxima: 1.50)<br>
+    Tarefa SP: ${notaTarefaSP.toFixed(2)} (Máxima: 2.00)<br>
+    Alura: ${notaAlura.toFixed(2)} (Máxima: 1.00)<br>
+    Matemática Gameficada: ${notaMatematicaGameficada.toFixed(2)} (Máxima: 1.50)<br>
+    Vulnerabilidade: ${notaVulnerabilidade.toFixed(2)} (Máxima: 1.00)<br>`;
 };
 
 const calcularNotaAlunoPresente = (alunoPresenteIndex) => {
