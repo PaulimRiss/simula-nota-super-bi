@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simula Nota Super BI</title>
+</head>
+
+<body>
+    <form>
+        <label for="alunoPresente">Aluno Presente</label><br>
+        <input required id="alunoPresente" type="number" step=".001" min="0" max="1" name="alunoPresenteIndex"
+            placeholder="Índice Aluno Presente">
+
+        <br><br>
+
+        <label for="provaPaulista">Prova Paulista</label><br>
+        <input required id="provaPaulista" type="number" step=".001" min="0" max="1" name="provaPaulistaIndex"
+            placeholder="Índice Prova Paulista">
+
+        <br><br>
+
+        <label for="redacaoPaulista">Redação Paulista</label><br>
+        <input required id="redacaoPaulista" type="number" step=".001" min="0" name="redacaoPaulistaIndex"
+            placeholder="Índice Redação Paulista">
+
+        <br><br>
+
+        <label for="tarefaSP">Tarefa SP</label><br>
+        <input required id="tarefaSP" type="number" step=".001" min="0" name="tarefaSPIndex"
+            placeholder="Índice Tarefa SP">
+
+        <br><br>
+
+        <label for="alura">Alura</label><br>
+        <input required id="alura" type="number" step=".001" min="0" name="aluraIndex" placeholder="Índice Alura">
+
+        <br><br>
+
+        <label for="matematicaGameficada">Matemática Gameficada</label><br>
+        <input required id="matematicaGameficada" type="number" step=".001" min="0" name="matematicaGameficadaIndex"
+            placeholder="Índice Matemática Gameficada">
+
+        <br><br>
+
+        <label for="vulnerabilidade">Vulnerabilidade</label><br>
+        <input required id="vulnerabilidade" type="number" step=".001" min="0" max="1" name="vulnerabilidadeIndex"
+            placeholder="Índice Vulnerabilidade">
+
+        <br><br>
+
+        <input required type="submit" value="Calcular">
+
+        <br><br>
+
+    </form>
+
+    <div id="resultado"></div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
